@@ -1,0 +1,13 @@
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/CMakeFiles/install/strip.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/CMakeFiles/install/local.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/CMakeFiles/install.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/CMakeFiles/list_install_components.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/CMakeFiles/rebuild_cache.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/CMakeFiles/edit_cache.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/src/CMakeFiles/install/strip.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/src/CMakeFiles/install.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/src/CMakeFiles/list_install_components.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/src/CMakeFiles/rebuild_cache.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/src/CMakeFiles/edit_cache.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/src/CMakeFiles/install/local.dir
+/home/vinicius/Documents/Cuba-4.2.2/Ultralight/build/src/CMakeFiles/Rates.dir
