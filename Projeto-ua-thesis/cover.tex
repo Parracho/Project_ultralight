@@ -1,0 +1,213 @@
+%!TEX encoding = UTF-8 Unicode
+
+%% Thesis cover pages
+%%
+%% Based on the example.tex file provided by Tomás Oliveira e Silva
+%%
+%% Modified by João Paulo Barraca <jpbarraca@ua.pt>
+%% Modified by Filipe Manco <filipe.manco@ua.pt>
+
+% Remove 'coverdepname' parameter to remove department name from cover pages
+% Add 'final' parameter to remove "DOCUMENTO PROVISÓRIO" from cover page
+\documentclass[11pt,twoside,a4paper,final]{report}
+
+%%% This file is a template for the cover of your
+%%%  thesis.
+%%% Lines like this one, starting with %%% , are
+%%%  instructions. Search them to know where and
+%%%  how to edit this file. After editing the
+%%%  document you can delete them.
+%%% Items marked with OPTIONAL can be removed.
+%%% Most of the lines you will have to change
+%%%  already have examples to help you understand.
+%%% The complete list of options and commands can
+%%%  be found in uaThesisTemplate.sty
+
+
+%%% Select your area of study and department from
+%%%  the following lists and replace them in the
+%%%  \usepackage declaration ([area,department]).
+%%%
+%%% | area        |   | department |
+%%% ---------------   --------------
+%%% | arts        |   | dao        |
+%%% | sciences    |   | dbio       |
+%%% | education   |   | dcspt      |
+%%% | economy     |   | deca       |
+%%% | engineering |   | degeit     |
+%%% | humanities  |   | de         |
+%%% | health      |   | deti       |
+%%% |             |   | demac      |
+%%% |             |   | decivil    |
+%%% |             |   | dem        |
+%%% |             |   | fis        |
+%%% |             |   | dlc        |
+%%% |             |   | dmat       |
+%%% |             |   | dq         |
+%%% |             |   | dcm        |
+%%% |             |   | geo        |
+%%% ---------------   --------------
+%% Import the UA thesis template
+\usepackage[sciences,fis]{uaThesisTemplate}
+
+
+%% Optional packages for utf8 encoding and T1 fonts
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+
+%% For prettier pages
+\usepackage{lmodern}
+\usepackage{amssymb}
+\usepackage{siunitx}
+%% We will use english and portuguese
+\usepackage[portuguese,english]{babel}
+
+\usepackage{xspace}% used by \sigla
+
+%%% This package is only used to create a dummy
+%%%  text for the abstract. You can remove the
+%%%  following line in the final document.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%       DEFINE THESIS COVER FIELDS
+%%                  START
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%% Edit thesis year
+%% Thesis Year
+\ThesisYear{\the\year}
+
+
+%%% Uncomment one of the following
+\DocumentTypeThesis
+%\DocumentTypeDissertation
+
+%%% Edit author's name
+%% Author's full name
+\Author{Bruno\\Francisco\\Parracho}
+
+%%% Edit thesis title in Portuguese
+%% Thesis Mandatory Title in Portuguese
+\Title{\selectlanguage{portuguese}Materia escura ultraleve}
+
+%%% OPTIONAL: you can write your thesis title in
+%%%  other languages. You can repeat the following
+%%%  line as many times as you want, or remove it
+%%%  if you only want the portuguese title.
+%% Optional Titles in additional languages.
+\Title{\selectlanguage{english}Ultralight Dark Matter}
+
+%%% OPTIONAL: add a quotation if you like.
+%% Optional Quotation
+\Quote{\selectlanguage{english}Life is about the little things}{--}
+
+%%% Edit your degree information.
+%%%
+%%% \Degree{title}{name}
+%%%
+%%% title: Degree title (Mestre or Doutor)
+%%% name : Degree name
+%% Degree title and name
+\Degree{Licenciado}{Fisica}
+
+%%% Edit your supervisor's information.
+%%%
+%%% \Supervisor{name}{category}
+%%%
+%%% name   : Supervisor's name
+%%% category: One of the following list
+%%%
+%%% | category               |
+%%% --------------------------
+%%% | catedrático            |
+%%% | catedrático convidado  |
+%%% | associado c/ agregação |
+%%% | associado              |
+%%% | auxiliar               |
+%%% | auxiliar convidado     |
+%%% --------------------------
+%% Supervisor information
+\Supervisor{António de Aguiar e Pestana de Morais}{Investigador}
+
+%%% OPTIONAL: you can add a second supervisor.
+%%%
+\SecondSupervisor{Filipe Ferreira de Freitas}{Investigador}{do Departamento de Física}{da Universidade de Aveiro}
+%%%  {[preposition: (at, in, no, da)] department}
+%%%  {[preposition: (at, in, do, na)] school}
+%%%
+%%% name      : See above.
+%%% category  : See above.
+%%% department: Can be a department, faculty or
+%%%             other; Choose the preposition
+%%%             accordingly.
+%%% school    : University/Scholl name; Choose the
+%%%             preposition accordingly.
+%% Optional SecondSuperviser information
+%\SecondSupervisor{Vinícius}{auxiliar convidado}{do Departamento de Matemática}{da Universidade de Aveiro}
+
+
+
+%%% OPTIONAL: edit grant support texts where
+%%%  appropriate. Maximum two.
+%%%
+%%% \GrantText{grant1}{grant2}
+%% Optional Grant support texts
+%\GrantText{Texto Apoio financeiro do POCTI no âmbito do III Quadro Comunitário de Apoio.}
+          %{Texto Apoio financeiro da FCT e do FSE no âmbito do III Quadro Comunitário de Apoio.}
+
+%%% OPTIONAL: Add a dedication text.
+%% Optional Dedication text
+%\Dedication{Dedico este trabalho a ...}
+
+%%% OPTIONAL: Add an acknowledgement text
+%% Optional Acknowledgement text
+\Acknowledgements{Agradecimentos}
+
+%%% Edit the keywords and abstract in Portuguese
+%%% Don't forget to remove the \blindtext[3]
+%%%  declaration.
+%%% Don't remove the \selectlanguage statement or you will end with incorrect hyphenation
+%% Mandatory Keywords and Abstract in Portuguese
+\Abstract{Palavras Chave}{Fenomenologia, Matéria escura, Bosão pseudo-Nambu-Golstone, Mecanismo de desalinhamento, Taxa de interação}
+         {Resumo}{Neste trabalho, foi estudado uma extensão do Modelo Padrão que permite o surgimento de um Bosão pseudo-Nambu-Golstone (pNGB) com uma massa na ordem dos $\mathcal{O}(10^{-20})\si{\eV}$, a partir de uma quebra de simetria espontânea e explicita. Além disso, foi mostrado como o pNGB se comporta termo-dinamicamente com o banho térmico do universo primordial e foi concluído que é um bom candidato a Matéria escura quando o ângulo de mistura, $\alpha\lesssim 10^{-7}$, e com o mecanismo de desalinhamento, foi possível obter uma densidade de relíquia coincidente com a ME \selectlanguage{portuguese}}
+
+%%% OPTIONAL: you can write the keywords and
+%%%  abstract in other languages. You can repeat
+%%%  the following lines as many times as you want
+%%%  or remove them if you only want portuguese.
+%%% Don't remove the \selectlanguage statement or you will end with incorrect hyphenation.
+%%% You can modify the language to any other supported by Latex
+%% Optional Keywords and Abstract in additional languages.
+\Abstract{Keywords}{Phenomenology, Dark Matter, pseudo-Goldstone Boson, Misalignment mechanism, Interaction rate}
+         {Abstract}{In this work we studied an extension of the standard model that permitted the appearance of a pseudo-Nambu-Goldstone Boson (pNGB) with mass in the order of $\mathcal{O}(10^{-20})\si{\eV}$, from an explicit and spontaneous symmetry breaking. Furthermore, we show how pNGB would behave thermodynamically with the thermal bath of the primordial universe and concluded it's a viable candidate for Dark Matter when the mixing angle, $\alpha\lesssim 10^{-7}$, and with the misalignment mechanism, we were able to obtain a relic density matching that of the DM.\selectlanguage{english}}
+
+%%% Edit the Jury President information.
+%% First Member will be the President of the Jury
+\JuriMember{Prof. Doutor Manuel António dos Santos Barroso}{Professor auxiliar}
+
+%%% Repeat the above declaration for additional
+%%%  members of the jury as many times as necessary.
+%% Additional members of the Jury
+\JuriMember{Prof. Doutor António de Aguiar e Pestana de Morais}{Investigador}
+\JuriMember{Prof. Doutor João Pedro Trancoso Gomes Rosa}{Arguente}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%       DEFINE THESIS COVER FIELDS
+%%                  END
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%%%  By default we consider portuguese to be the
+%%%  main language (the last one in the usepackage
+%%%  declaration). If you're writing your thesis
+%%%  in english uncomment the following line.
+%%% Set the proper language or you will end with incorrect hyphenation!
+%\selectlanguage{english}
+\MakeCover
+
+\end{document}

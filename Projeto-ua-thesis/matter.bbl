@@ -1,0 +1,295 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{Bertone_2018}{article}{}
+      \name{author}{2}{}{%
+        {{hash=45173e651a575c22d3d5aeb1decbed73}{%
+           family={Bertone},
+           familyi={B\bibinitperiod},
+           given={Gianfranco},
+           giveni={G\bibinitperiod}}}%
+        {{hash=32d7396024041de7456d6ae92ee17fad}{%
+           family={Hooper},
+           familyi={H\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society ({APS})}%
+      }
+      \strng{namehash}{6a70ae36dbc50992d40c1322c440db1f}
+      \strng{fullhash}{6a70ae36dbc50992d40c1322c440db1f}
+      \strng{bibnamehash}{6a70ae36dbc50992d40c1322c440db1f}
+      \strng{authorbibnamehash}{6a70ae36dbc50992d40c1322c440db1f}
+      \strng{authornamehash}{6a70ae36dbc50992d40c1322c440db1f}
+      \strng{authorfullhash}{6a70ae36dbc50992d40c1322c440db1f}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Reviews of Modern Physics}
+      \field{month}{10}
+      \field{number}{4}
+      \field{title}{History of dark matter}
+      \field{volume}{90}
+      \field{year}{2018}
+      \verb{doi}
+      \verb 10.1103/revmodphys.90.045002
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1103%2Frevmodphys.90.045002
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1103%2Frevmodphys.90.045002
+      \endverb
+    \endentry
+    \entry{1844bessel}{article}{}
+      \name{author}{1}{}{%
+        {{hash=7b081c83810ec84119f8c7ce6cd89730}{%
+           family={{Bessel}},
+           familyi={B\bibinitperiod},
+           given={F.\bibnamedelimi W.},
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{7b081c83810ec84119f8c7ce6cd89730}
+      \strng{fullhash}{7b081c83810ec84119f8c7ce6cd89730}
+      \strng{bibnamehash}{7b081c83810ec84119f8c7ce6cd89730}
+      \strng{authorbibnamehash}{7b081c83810ec84119f8c7ce6cd89730}
+      \strng{authornamehash}{7b081c83810ec84119f8c7ce6cd89730}
+      \strng{authorfullhash}{7b081c83810ec84119f8c7ce6cd89730}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\mnras}
+      \field{month}{12}
+      \field{title}{{On the variations of the proper motions of Procyon and Sirius}}
+      \field{volume}{6}
+      \field{year}{1844}
+      \field{pages}{136\bibrangedash 141}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1093/mnras/6.11.136
+      \endverb
+    \endentry
+    \entry{1973rotationcurves}{article}{}
+      \name{author}{2}{}{%
+        {{hash=3b99dd623ebf39b7941c7ffb75aa6f66}{%
+           family={{Roberts}},
+           familyi={R\bibinitperiod},
+           given={M.\bibnamedelimi S.},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=c604070ee44ec3ea2347c510a2616011}{%
+           family={{Rots}},
+           familyi={R\bibinitperiod},
+           given={A.\bibnamedelimi H.},
+           giveni={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{4781143c31e6eb63110c12ab28a9db10}
+      \strng{fullhash}{4781143c31e6eb63110c12ab28a9db10}
+      \strng{bibnamehash}{4781143c31e6eb63110c12ab28a9db10}
+      \strng{authorbibnamehash}{4781143c31e6eb63110c12ab28a9db10}
+      \strng{authornamehash}{4781143c31e6eb63110c12ab28a9db10}
+      \strng{authorfullhash}{4781143c31e6eb63110c12ab28a9db10}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{\aap}
+      \field{month}{8}
+      \field{title}{{Comparison of Rotation Curves of Different Galaxy Types}}
+      \field{volume}{26}
+      \field{year}{1973}
+      \field{pages}{483\bibrangedash 485}
+      \range{pages}{3}
+    \endentry
+    \entry{grif}{book}{}
+      \name{author}{1}{}{%
+        {{hash=42e8ffd37323285bb1fdb7f05e3bd4d3}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-VCH}%
+      }
+      \strng{namehash}{42e8ffd37323285bb1fdb7f05e3bd4d3}
+      \strng{fullhash}{42e8ffd37323285bb1fdb7f05e3bd4d3}
+      \strng{bibnamehash}{42e8ffd37323285bb1fdb7f05e3bd4d3}
+      \strng{authorbibnamehash}{42e8ffd37323285bb1fdb7f05e3bd4d3}
+      \strng{authornamehash}{42e8ffd37323285bb1fdb7f05e3bd4d3}
+      \strng{authorfullhash}{42e8ffd37323285bb1fdb7f05e3bd4d3}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Introduction to Elementary Particles}
+      \field{year}{2008}
+    \endentry
+    \entry{Freitas_2021}{article}{}
+      \name{author}{8}{}{%
+        {{hash=e0661a91f146bdbdf6b1479b26974bbf}{%
+           family={Freitas},
+           familyi={F\bibinitperiod},
+           given={Felipe\bibnamedelima F.},
+           giveni={F\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=1e21f05a696d5563d0e8164823cd2aa9}{%
+           family={Herdeiro},
+           familyi={H\bibinitperiod},
+           given={Carlos\bibnamedelima A.R.},
+           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=d854a302efa1d893106f34684bc91bf1}{%
+           family={Morais},
+           familyi={M\bibinitperiod},
+           given={António\bibnamedelima P.},
+           giveni={A\bibinitperiod\bibinitdelim P\bibinitperiod}}}%
+        {{hash=37e5211686d49a328c19df6395b9f7f1}{%
+           family={Onofre},
+           familyi={O\bibinitperiod},
+           given={António},
+           giveni={A\bibinitperiod}}}%
+        {{hash=4c5d9962825c6ac06c63bb3d34cc358b}{%
+           family={Pasechnik},
+           familyi={P\bibinitperiod},
+           given={Roman},
+           giveni={R\bibinitperiod}}}%
+        {{hash=e8513b9cd9db3ab3f9ab4e35933b287f}{%
+           family={Radu},
+           familyi={R\bibinitperiod},
+           given={Eugen},
+           giveni={E\bibinitperiod}}}%
+        {{hash=f8681ce237d20977c187b9b43326fac8}{%
+           family={Sanchis-Gual},
+           familyi={S\bibinithyphendelim G\bibinitperiod},
+           given={Nicolas},
+           giveni={N\bibinitperiod}}}%
+        {{hash=d97486ef3495d0397d5aca2f0adb3565}{%
+           family={Santos},
+           familyi={S\bibinitperiod},
+           given={Rui},
+           giveni={R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {IOP Publishing}%
+      }
+      \strng{namehash}{8366af245de44d17d33d012a26f1b35b}
+      \strng{fullhash}{73386035f9e44a192ecbea43e429b80e}
+      \strng{bibnamehash}{73386035f9e44a192ecbea43e429b80e}
+      \strng{authorbibnamehash}{73386035f9e44a192ecbea43e429b80e}
+      \strng{authornamehash}{8366af245de44d17d33d012a26f1b35b}
+      \strng{authorfullhash}{73386035f9e44a192ecbea43e429b80e}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{1475-7516}
+      \field{journaltitle}{Journal of Cosmology and Astroparticle Physics}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{Ultralight bosons for strong gravity applications from simple Standard Model extensions}
+      \field{volume}{2021}
+      \field{year}{2021}
+      \field{pages}{047}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1088/1475-7516/2021/12/047
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1088/1475-7516/2021/12/047
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1088/1475-7516/2021/12/047
+      \endverb
+    \endentry
+    \entry{kolb}{book}{}
+      \name{editor}{1}{}{%
+        {{hash=66835b7e7d3adec9d401b4d673d5dd96}{%
+           family={Edward\bibnamedelimb W.\bibnamedelimi Kolb},
+           familyi={E\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Michael\bibnamedelimb S.\bibnamedelimi Turner},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{66835b7e7d3adec9d401b4d673d5dd96}
+      \strng{fullhash}{66835b7e7d3adec9d401b4d673d5dd96}
+      \strng{bibnamehash}{66835b7e7d3adec9d401b4d673d5dd96}
+      \strng{editorbibnamehash}{66835b7e7d3adec9d401b4d673d5dd96}
+      \strng{editornamehash}{66835b7e7d3adec9d401b4d673d5dd96}
+      \strng{editorfullhash}{66835b7e7d3adec9d401b4d673d5dd96}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{edition}{1st}
+      \field{title}{The Early Universe}
+      \field{year}{1990}
+    \endentry
+    \entry{GONDOLO}{article}{}
+      \name{author}{2}{}{%
+        {{hash=0f6d042ac99e7ba288c0ac435135e414}{%
+           family={Gondolo},
+           familyi={G\bibinitperiod},
+           given={Paolo},
+           giveni={P\bibinitperiod}}}%
+        {{hash=54dd4802190d11aca6fca4c7e4461786}{%
+           family={Gelmini},
+           familyi={G\bibinitperiod},
+           given={Graciela},
+           giveni={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{b882e3818aa3f70c1dc9da38cad58eb9}
+      \strng{fullhash}{b882e3818aa3f70c1dc9da38cad58eb9}
+      \strng{bibnamehash}{b882e3818aa3f70c1dc9da38cad58eb9}
+      \strng{authorbibnamehash}{b882e3818aa3f70c1dc9da38cad58eb9}
+      \strng{authornamehash}{b882e3818aa3f70c1dc9da38cad58eb9}
+      \strng{authorfullhash}{b882e3818aa3f70c1dc9da38cad58eb9}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{An exact relativistic single-integral formula for the thermal average of the annihilation cross section times velocity, the key quantity in the determination of the cosmic relic abundance of a species, is obtained. Since it does not require expansion of the cross section at low relative velocity, it can also be used when the cross section varies rapidly with energy, e.g. near the formation of a resonance or the opening of a new annihilation channel. We discuss approximate formulas in these cases, and we find that dips in the relic density near resonances are significantly broader and shallower than previously thought and that spurious reductions near thresholds disappear.}
+      \field{issn}{0550-3213}
+      \field{journaltitle}{Nuclear Physics B}
+      \field{number}{1}
+      \field{title}{Cosmic abundances of stable particles: Improved analysis}
+      \field{volume}{360}
+      \field{year}{1991}
+      \field{pages}{145\bibrangedash 179}
+      \range{pages}{35}
+      \verb{doi}
+      \verb https://doi.org/10.1016/0550-3213(91)90438-4
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/0550321391904384
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/0550321391904384
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{kelb}
+\endrefsection
+\endinput
+
