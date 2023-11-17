@@ -1,0 +1,151 @@
+%---- Sample WMSU BSMATH BEAMER template ------
+%---- Begin editing after PREAMBLE END at line 77------
+%---- Created by: Christle Jude L. Maquilan - April 2022 --
+%---- @jmaq03.jm@gmail.com -----
+
+\documentclass[xcolor=dvipsnames,envcountsect]{beamer}
+
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+%----------▼▼▼▼▼ START PREAMBLE ▼▼▼▼▼----------
+
+%-------- theme --------
+\usetheme{Madrid}
+%-------- packages to be used -------
+\usepackage{amsmath,amsfonts,amssymb,amscd,amsthm}
+\usepackage{graphicx,xcolor,comment}
+\usepackage{mathrsfs}
+\usepackage{multirow}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{multicol}
+\usepackage{multimedia}
+\usepackage{ragged2e}
+\usepackage{siunitx}
+\usepackage{tikz-feynman}
+\usepackage{caption}
+\usepackage[english]{babel}
+\usepackage{rotating}
+\usepackage{enumerate}
+\usepackage{tikz}
+\usepackage{bm}
+\usepackage{csquotes}
+\usepackage{mathtools}
+\usepackage{relsize}
+\usepackage{bbm}
+\usepackage{pgfplots}
+\usepackage{physics}
+\usepackage{calligra}
+\usepackage{csquotes}
+\usepackage{tensor}
+\usepackage[thicklines]{cancel}
+\usepackage{tcolorbox}
+\usepackage{pstricks}
+%-------- color --------
+\definecolor{blue2}{HTML}{045FB4}
+\definecolor{green2}{HTML}{46C235}
+\definecolor{red2}{HTML}{EE4848}
+\definecolor{violet2}{HTML}{A647E5}
+\definecolor{orange2}{HTML}{FF7425}
+\definecolor{darkred}{HTML}{5C2020}
+\definecolor{gray}{HTML}{303030}
+\definecolor{yellow}{HTML}{f0be52}
+\definecolor{lightdarkgold}{HTML}{EEBC1D}
+
+%-------- set color of 'example block' to crimson theme --------
+\usecolortheme[named=darkred]{structure}
+\usecolortheme{sidebartab}
+\usecolortheme{orchid}
+\usecolortheme{whale}
+\setbeamercolor{titlelike}{parent=structure, bg=structure, fg=white}
+\setbeamercolor{section in toc}{fg= white}
+\setbeamercolor{subsection in toc}{fg= white}
+%\setbeamercolor*{sidebar}{fg=red2,bg=gray!15!white}
+
+\setbeamercolor{item projected}{bg=yellow, fg = white}
+\setbeamertemplate{enumerate items}[default]
+\setbeamertemplate{navigation symbols}{}
+\setbeamercolor{local structure}{fg=yellow}
+
+\setbeamercolor{alerted text}{fg=white}
+\setbeamercolor{block title}{bg = blue2}
+\setbeamercolor{block title alerted}{bg=red2}
+\setbeamercolor{block title example}{bg=green2}
+\setbeamercolor{background canvas}{bg=gray}
+\setbeamercolor{normal text}{bg=gray,fg=white}
+%-------- font ---
+\usefonttheme[stillsansseriftext]{structurebold}
+\setbeamercovered{transparent}
+%-------- misc structure --------
+\useoutertheme[footline=authortitle,subsection=false]{miniframes}
+\useinnertheme{rounded}
+\addtobeamertemplate{block begin}{}{\justifying}
+\newtheorem{remark}[theorem]{Remark}
+\renewcommand{\indent}{\hspace*{2em}}
+\setbeamertemplate{theorems}[numbered]
+\setbeamertemplate{caption}[numbered]
+\usepackage[justification=centering]{caption}
+\renewcommand{\qedsymbol}{$\blacksquare$}
+
+\newcommand*{\Scale}[2][4]{\scalebox{#1}{$#2$}}%
+\input{embed-video.tex}
+
+%-------- for bibliography -----------------
+\usepackage[backend=biber, bibstyle=nature, sorting=nty, citestyle=numeric-comp]{biblatex} %Custom bibliography
+\addbibresource{bib.bib} %Load references
+
+%-------- WMSU Backgound -------------------
+%\usebackgroundtemplate{%
+%	\tikz[overlay,remember picture] \node[opacity=0.02, at=(current page.center)] {
+%		\includegraphics[height=4.5in,width=4.5in]{Figures/logo.pdf}};
+%}
+
+%----------▲▲▲▲▲ PREAMBLE END ▲▲▲▲▲----------
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+
+%---------START EDITING HERE---------------------
+\title[Ultralight Dark Matter]{Ultralight Dark Matter}
+
+\author[Bruno Parracho (97855)]{\textbf{Bruno F. Parracho}}
+
+\institute[University of Aveiro] {\emph{Superviser: }\textbf{António Morais, Ph.D.}\\[1em]
+	Department of Physics\\University of Aveiro\\[1em]
+\includegraphics[scale=.8]{./Figures/logo.pdf}}
+
+\date[July 28, 2022]{\footnotesize Project - Defense - \textbf{July 28, 2022}}
+%--------- START DOCUMENT ------------------
+
+\begin{document}
+    
+    \frame{\titlepage}
+    
+    \begin{frame}{Summary}
+        \tableofcontents
+    \end{frame}
+    
+    \input{chapters/chapter 0}
+    \input{chapters/chapter 1}
+    
+    \input{chapters/chapter 2}
+    
+    \input{chapters/chapter 3}
+    
+    \section*{References} %You can remove this if you do not want to use it
+    	\begin{frame}{References}
+            \printbibliography
+    	\end{frame}
+
+    \section{}
+    \begin{frame}{}
+        \centering
+            \Huge\bfseries
+        \textcolor{yellow}{Thank you!!!}
+    \end{frame}
+\end{document}
