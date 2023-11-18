@@ -1,0 +1,21 @@
+Real PROCA (ULT DM)
+ Constraints 
+ Name  |> Expression                                                                                                                        <|
+CW     |sqrt(1-SW^2) % cos of the Weinberg angle
+GF     |EE^2/(2*SW*MW)^2/Sqrt2 %  experimental value 1.166E-5 [1/GeV^2]
+MZ     |MW/CW % Z boson mass
+LamQCD |initQCD5(alphaSMZ, McMc, MbMb, Mtp)
+Mb     |MbEff(Q)
+Mc     |McEff(Q)
+Ms     |MqEff(0.096, Q) % s-quark effective mass  via 2MeV running one
+B00000 |1-2*SW^2
+B00001 |1-4*SW^2+4*SW^4
+Mdm    |sqrt((g1^2*vsigma^2)/4)
+Mh     |sqrt((vh^2*lambdaH+vsigma^2*lambdaphi-sqrt(vh^4*lambdaH^2+vsigma^4*lambdaphi+2*vh^2*vsigma^2*(2*lambdaHphi^2-lambdaH*lambdaphi)))/2)
+Mh2    |sqrt((vh^2*lambdaH+vsigma^2*lambdaphi+sqrt(vh^4*lambdaH^2+vsigma^4*lambdaphi+2*vh^2*vsigma^2*(2*lambdaHphi^2-lambdaH*lambdaphi)))/2)
+sina   |sin(a)
+cosa   |cos(a)
+B00002 |(lambdaphi*sina*sina+lambdaHphi*cosa*cosa)/4
+B00003 |(lambdaphi*sina*cosa-lambdaHphi*cosa*(-sina))/4
+B00004 |(lambdaphi*cosa*cosa+lambdaHphi*(-sina)*(-sina))/4
+==============================================================================================================================================

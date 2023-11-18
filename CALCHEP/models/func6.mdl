@@ -1,0 +1,24 @@
+Real pseudo (ULT DM)
+ Constraints 
+ Name  |> Expression                                                                                                                                    <|
+CW     |sqrt(1-SW^2) % cos of the Weinberg angle
+GF     |EE^2/(2*SW*MW)^2/Sqrt2 %  experimental value 1.166E-5 [1/GeV^2]
+MZ     |MW/CW % Z boson mass
+LamQCD |initQCD5(alphaSMZ, McMc, MbMb, Mtp)
+Mb     |MbEff(Q)
+Mc     |McEff(Q)
+Ms     |MqEff(0.096, Q) % s-quark effective mass  via 2MeV running one
+B00000 |1-2*SW^2
+B00001 |1-4*SW^2+4*SW^4
+Mdm    |sqrt(2*mius^2)
+sina   |sin(a)
+cosa   |cos(a)
+cos3a  |cos(3*a)
+sin3a  |sin(3*a)
+B00002 |(lambdaphi*sina*sina+lambdaHphi*cosa*cosa)/4
+B00003 |(lambdaphi*sina*cosa-lambdaHphi*cosa*(-sina))/4
+B00004 |(lambdaphi*cosa*cosa+lambdaHphi*(-sina)*(-sina))/4
+HHHl   |1/2*(-vh*lambdaHphi*cosa^2*sina-vh*lambdaH*sina^3+cosa*sina^2*(vsigma*lambdaHphi)+cosa^3*(vsigma*lambdaphi))
+hhhl   |1/2*(vsigma*lambdaHphi*cosa^2*sina+vsigma*lambdaphi*sina^3+cosa*sina^2*(vh*lambdaHphi)+cosa^3*(vh*lambdaH))
+hHHl   |1/8*(vh*(3*lambdaH+lambdaHphi)*cosa+3*vh*(-lambdaH+lambdaHphi)*cos3a+vsigma*(lambdaHphi+3*lambdaphi)*sina+3*vsigma*(-lambdaHphi+lambdaphi)*sin3a)
+==========================================================================================================================================================

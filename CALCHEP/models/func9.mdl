@@ -1,0 +1,39 @@
+Complex PROCA (ULT DM)
+ Constraints 
+ Name  |> Expression                                                                                                                                                            <|
+CW     |sqrt(1-SW^2) % cos of the Weinberg angle
+GF     |EE^2/(2*SW*MW)^2/Sqrt2 %  experimental value 1.166E-5 [1/GeV^2]
+MZ     |MW/CW % Z boson mass
+LamQCD |initQCD5(alphaSMZ, McMc, MbMb, Mtp)
+Mb     |MbEff(Q)
+Mc     |McEff(Q)
+Ms     |MqEff(0.096, Q) % s-quark effective mass  via 2MeV running one
+B00000 |1-2*SW^2
+B00001 |1-4*SW^2+4*SW^4
+Mh     |sqrt((vh^2*lambdaH+vsigma^2*(lambdaphi+lambda12)+sqrt(vh^4*lambdaH^2+vsigma^4*(lambdaphi+lambda12)^2-2*vh^2*vsigma^2*(lambdaH*(lambdaphi+lambda12)-4*lambdaHphi^2)))/2)
+Mdm    |sqrt(2*mius^2)
+Mh2    |sqrt((vh^2*lambdaH+vsigma^2*(lambdaphi+lambda12)-sqrt(vh^4*lambdaH^2+vsigma^4*(lambdaphi+lambda12)^2-2*vh^2*vsigma^2*(lambdaH*(lambdaphi+lambda12)-4*lambdaHphi^2)))/2)
+Mh3    |sqrt(vsigma^2*(lambdaphi-lambda12))
+sina   |sin(a)
+sin2a  |sin(2*a)
+cosa   |cos(a)
+cos4a  |cos(4*a)
+sqrt2  |sqrt(2)
+B2222  |((lambda12+lambdaphi)*cosa^4+2*lambdaH*sina^4+lambdaHphi*sin2a^2)/16
+B3333  |(lambda12+lambdaphi)/16
+B2233  |((3*lambdaphi-lambda12)*cosa^2+2*lambdaHphi*sina^2)/8
+B1122  |(3*lambda12+6*lambdaH+4*lambdaHphi+3*lambdaphi-3*(lambda12+2*lambdaH-4*lambdaHphi+lambdaphi)*cos4a)/64
+B1133  |(2*lambdaHphi*cosa^2-(lambda12-3*lambdaphi)*sina^2)/8
+B11XX  |(2*lambdaHphi*cosa^2+(lambda12+lambdaphi)*sina^2)/4
+B22XX  |(2*lambdaHphi*sina^2+(lambda12+lambdaphi)*cosa^2)/4
+B33XX  |(lambda12+lambdaphi)/4
+B12XX  |((2*lambdaHphi-lambda12-lambdaphi)*sin2a)/4
+B1XX   |(vh*lambdaHphi*cosa+(vsigma*(lambda12+lambdaphi)*sina)/(sqrt(2)))
+B2XX   |(vh*lambdaHphi*sina-(vsigma*(lambda12+lambdaphi)*cosa)/(sqrt(2)))
+B3XX   |(vsigma*(lambda12-lambdaphi)*cosa)/(2*sqrt(2))
+B122   |(2*vh*lambdaHphi*cosa^3+sqrt(2)*vsigma*(3*lambda12-4*lambdaHphi+3*lambdaphi)*cosa^2*sina+2*sina^2*(vh*(3*lambdaH-2*lambdaHphi)*cosa+sqrt(2)*vsigma*lambdaHphi*sina))/4
+B133   |(2*vh*lambdaHphi*cosa-sqrt(2)*vsigma*(lambda12-3*lambdaphi)*sina)/4
+B233   |(2*vh*lambdaHphi*sina+sqrt(2)*vsigma*(lambda12-3*lambdaphi)*cosa)/4
+B222   |(2*vh*sina*(lambdaHphi*cosa^2+lambdaH*sina^2)-sqrt(2)*vsigma*cosa*(2*lambdaHphi*sina^2+(lambda12+lambdaphi)*cosa^2))/4
+BXXXX  |(mius^2)/(6*vsigma^2)
+==================================================================================================================================================================================
