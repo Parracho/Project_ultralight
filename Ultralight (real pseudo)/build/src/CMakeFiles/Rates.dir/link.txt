@@ -1,1 +1,0 @@
-/usr/bin/c++  -Wall -g -std=gnu++11 -rdynamic CMakeFiles/Rates.dir/CalcRate.cpp.o CMakeFiles/Rates.dir/Rate.cpp.o CMakeFiles/Rates.dir/Utilities.cpp.o CMakeFiles/Rates.dir/CalcAmpRateRelic.cpp.o -o Rates   -L/home/parracho/Desktop/Project/Cuba-4.2.2  -Wl,-rpath,/home/parracho/Desktop/Project/Cuba-4.2.2: -lgsl -lgslcblas -lcubal 

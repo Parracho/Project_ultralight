@@ -1,8 +1,0 @@
-mkdir build
-cd build
-make
-cmake -DCMAKE_INSTALL_PREFIX=.. ..
-make
-make install
-cd bin
-./Rates 0

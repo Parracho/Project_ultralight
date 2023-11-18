@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Mac",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/../",
+                "/usr/local/include/**",
+                "/usr/local/boost_1_71_0/boost/math/special_functions/",
+                "/usr/include/eigen3/",
+                "/usr/local/boost_1_71_0",
+                "/home/mdutra/LoopTools/x86_64-Linux/include"
+            ],
+            "defines": [],
+            "macFrameworkPath": [
+                "/Library/Developer/CommandLineTools/SDKs/MacOSX10.14.sdk/System/Library/Frameworks"
+            ],
+            "compilerPath": "/usr/bin/g++-7",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "compileCommands": "/home/mdutra/Cuba-4.2/FIDM/build/compile_commands.json"
+        }
+    ],
+    "version": 4
+}
